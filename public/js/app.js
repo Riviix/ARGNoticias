@@ -64,7 +64,7 @@ setInterval(updateClock, 1000);
 updateClock();
 
 // ── API ───────────────────────────────────────────────
-const API = 'http://localhost:3000/api';
+const API = '/api';
 
 async function fetchNews(forceRefresh = false) {
     if (forceRefresh) {
